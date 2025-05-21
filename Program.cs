@@ -18,17 +18,53 @@ namespace Y9_DEC_TO_BIN_SKELETON
             //MAIN CHALLENGE: WRITE A PROGRAM TO CONVERT ANY INTEGER TO ITS EQUIVALENT BINARY NUMBER
             //WRITE A CALL TO YOUR NUMBER CONVERSION FUNCTION HERE
             
+            //Task 1
+            int num = 15;
+            string string1 = Convert.ToString(num);
+            Console.WriteLine(string1);
+
+            //Task 2
+            string string2 = "HELLO";
+            string string3 = string1.Insert(0, string2);
+            Console.WriteLine(string3);
+
+            //Task 3 - remainder challenge
+            Console.WriteLine("Enter a number you would like to turn into binary");
+            int userNum = Convert.ToInt32(Console.ReadLine());
+            int[] = { };
+            if (userNum % 2 == 0)
+            {
+
+            }
             
+
+
+
+
+
+
+
+
+
+
+
         }
+
+
+
+
+
+
+
 
         // LET'S USE THE 'STRUCTURED APPROACH' TO PROGRAMMING...A QUICK INTRODUCTION TO SUBBROUTINES(functions and procedures)...a.k.a. 'methods' in C#
         //static void means the function will not return a value so it does not need a data type 
         //...this function DOES return a value so the method must have a data type
-        static string numberConversion(int number, int numberbase)
-        {
-            //CODE GOES HERE
+        //static string numberConversion(int number, int numberbase)
+        //{
+        //    //CODE GOES HERE
 
-            return result; //REMOVE THE RED LINE!
-        }
+        //    //return result; //REMOVE THE RED LINE!
+        //}
     }
 }
