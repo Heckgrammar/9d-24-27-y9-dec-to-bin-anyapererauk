@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Net.NetworkInformation;
+using System.Reflection;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,12 +35,30 @@ namespace Y9_DEC_TO_BIN_SKELETON
             //Task 3 - remainder challenge
             Console.WriteLine("Enter a number you would like to turn into binary");
             int userNum = Convert.ToInt32(Console.ReadLine());
-            int[] = { };
+            int[] binaryNum= { };
             if (userNum % 2 == 0)
             {
-
+                new int[0] = binaryNum[0]; //The number 0 must be added to the end of the array.
+            }                              // still need to figure that out. :(
+            else if (userNum % 2 == 1)
+            {
+                new int[1] = binaryNum[0]; //The number 1 must be aded to the end of that array.
             }
-            
+            Array.Reverse(binaryNum);
+            Console.WriteLine(binaryNum);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
